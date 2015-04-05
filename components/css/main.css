@@ -1,0 +1,58 @@
+.black{
+	background-color: black;
+	height: 100px;
+}
+
+.grey{
+	background-color: grey;
+	height: 100px;
+}
+
+.d70{
+	margin-top: 70px;	
+}
+
+.u70{
+	margin-bottom: 70px;	
+}
+
+
+.d10{
+	margin-top: 10px;	
+}
+
+.u10{
+	margin-bottom: 10px;	
+}
+
+.cen{
+	text-align: center;
+}
+
+.jumbotron{
+	//background-image: url(../img/jumboLogo1.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+}
+
+.w{
+	color: #FFF;
+}
+
+.b{
+	color: #00CCFF;
+}
+
+.y{
+	color: #FFFF00;
+}
+
+.bg{
+	color: #232C24;
+}
+
+.bgc{
+	background-color: #232C24;
+}
+

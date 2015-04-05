@@ -1,0 +1,61 @@
+.black{
+	background-color: black;
+	height: 100px;
+}
+
+.grey{
+	background-color: grey;
+	height: 100px;
+}
+
+.d70{
+	margin-top: 70px;	
+}
+
+.d100{
+	margin-top: 100px;	
+}
+
+.u70{
+	margin-bottom: 70px;	
+}
+
+
+.d10{
+	margin-top: 10px;	
+}
+
+.u10{
+	margin-bottom: 10px;	
+}
+
+.cen{
+	text-align: center;
+}
+
+
+.w{
+	color: #FFF;
+}
+
+.b{
+	color: #00CCFF;
+}
+
+.y{
+	color: #FFFF00;
+}
+
+.bg{
+	color: #232C24;
+}
+
+.bgc{
+	background-color: #232C24;
+}
+
+
+.skillsDash{
+	height: 400px;
+	width: 330px;
+}

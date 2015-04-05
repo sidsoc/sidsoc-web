@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="keywords" content=""/>
+        <!-- STEP 1 -->
+        <!-- Between the Title Tags add your name followed by "E-Portfolio" (example: John Doe E-Portfolio) -->
+        <title>*** E-Portfolio</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        
+        
+    </head>
+    <body>
+        <!-- Navbar Start -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navTopCol" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="brand" href="../index.html"><img src="img/SIDSOC_Brand.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#AB">About Me</a></li>
+                    <li><a href="#SK">Skills</a></li>
+                    <li><a href="#PR">Projects</a></li>
+                    <li><a href="#GR">Grades</a></li>
+                    <li><a href="#XP">Experience</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- Navbar End -->
+        
+        <!--INSERT CONTENT HERE-->
+        
+            <!-- This section will contain your name, a profile picture and a bio about you  -->
+            <section id="AB">
+                <div class="container d100">
+                    <!-- STEP 2 -->
+                    <!-- Eneter your own name between the <h1> tag -->
+                    <div class="row"><h1 class="cen">Your Name</h1></div>
+                    
+                    <div class="col-md-5">
+                        <div class="d10">
+                            <div class="thumbnail">
+                              <!-- STEP 3 -->
+                              <!-- Save the image of yourself in the img folder and replace the # below with the link to the img -->
+                              <!-- Example: src="..img/yourimage.jpg"-->
+                              <img src="#" alt="Your name" class="img-responsive">
+                            </div>
+                        </div>
+                        <h4 class="cen"><a href="https://www.linkedin.com">Add me on LinkedIn <i class="fa fa-linkedin-square fa-3x b"></i></a></h4>
+                              <!-- STEP 3.1 -->
+                              <!-- Add a link to your LinkedIn profile above -->
+                    </div>
+                    <div class="col-md-7">
+                        <!-- STEP 4 -->
+                        <!-- Replace the below text with your own about me information -->
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+        
+                    </div>
+                </div>
+            </section>
+            
+            
+            <!-- Skills grid -->
+            <section class="bgc" id="SK">
+                <div class="container d70 u70">
+                <!-- STEP 5-->
+                <!-- Open the charts.js file in the text editor -->
+
+                <div class="row d70">
+                    <h2 class="cen w">Skills Chart <small class="b">1: Beginner 2: Intermediate 3: Advanced</small></h2>
+                    <div class="col-lg-4">
+                        <div class="panel panel-default skillsDash bgc">
+                        <!-- Default panel contents -->
+                            <div class="bgc"><h3 class="cen w">#</h3></div>
+                                <canvas id="chart1" height="450" width="600"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="panel panel-default skillsDash bgc">
+                        <!-- Default panel contents -->
+                            <div class="bgc"><h3 class="cen w">#</h3></div>
+                                <canvas id="chart2" height="450" width="600"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="panel panel-default skillsDash bgc">
+                        <!-- Default panel contents -->
+                            <div class="bgc"><h3 class="cen w">#</h3></div>
+                                <canvas id="chart3" height="450" width="600"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!-- Projects -->
+            <section id="PR">
+                <div class="container">
+                  <div class="panel panel-info">
+                        <!-- Default panel contents -->
+                        <div class="panel-heading"><h3 class="cen"> My Projects</h3></div>
+                          <div class="container">
+                            <div role="tabpanel">
+                              <!-- STEP 7-->
+                              <!-- Add the names of each of your projects below. If you have more than 4, you can add more as neccessary -->
+
+                              <!-- Nav tabs -->
+                                <ul class="nav nav-tabs" role="tablist" id="myTab">
+                                  <li role="presentation" class="active"><a href="#t1" aria-controls="p1" role="tab" data-toggle="tab">Project 1</a></li>
+                                  <li role="presentation"><a href="#t2" aria-controls="p2" role="tab" data-toggle="tab">Project 2</a></li>
+                                  <li role="presentation"><a href="#t3" aria-controls="p3" role="tab" data-toggle="tab">Project 3</a></li>
+                                  <li role="presentation"><a href="#t4" aria-controls="p4" role="tab" data-toggle="tab">Project 4</a></li>
+                                </ul>
+
+                                <!-- STEP 8-->
+                                <!-- Add details about each project between the <p> tags below -->
+                                <!-- Add a link to the GITHUB or google docs account where your projects are hosted -->
+                                <!-- Add font awesome icon below if applicable -->
+                                <!-- for Google Drive: fa fa-google fa-lg -->
+                                <!-- for Git Hub: fa fa-github fa-lg --> 
+                                <!-- for Dropbox: fa fa-dropbox fa-lg -->
+                                <!-- for Slideshare: fa fa-slideshare fa-lg -->
+                                <!-- for Youtube: fa fa-youtube fa-lg -->
+                                <div class="tab-content">
+                                  <div role="tabpanel" class="tab-pane active" id="t1">
+                                    <h3>Project Overview</h3>
+                                    <p>...<p>
+                                    <h3>My Role</h3>
+                                    <p>...<p>
+                                    <a href="#" class="btn btn-info"><i class=""></i> Take me to #</a>
+                                  </div>
+                                  <div role="tabpanel" class="tab-pane" id="t2">
+                                    <h3>Project Overview</h3>
+                                    <p>...<p>
+                                    <h3>My Role</h3>
+                                    <p>...<p>
+                                    <a href="#" class="btn btn-info"><i class=""></i> Take me to #</a>
+                                  </div>
+                                  <div role="tabpanel" class="tab-pane" id="t3">
+                                    <h3>Project Overview</h3>
+                                    <p>...<p>
+                                    <h3>My Role</h3>
+                                    <p>...<p>
+                                    <a href="#" class="btn btn-info"><i class=""></i> Take me to #</a>
+                                  </div>
+                                  <div role="tabpanel" class="tab-pane" id="t4">
+                                    <h3>Project Overview</h3>
+                                    <p>...<p>
+                                    <h3>My Role</h3>
+                                    <p>...<p>
+                                    <a href="#" class="btn btn-info"><i class=""></i> Take me to #</a>
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--  Work/Academic Experience -->
+            <section class="bgc" id="XP">
+                <div class="container"> 
+                    <div class="row">
+                      
+                      <div class="col-md-6">
+
+                        <h3 class="cen b">Work Experience</h3>
+                        <!-- STEP 9 -->
+                        <!-- In the section below, replace the words Job #, with the name of a previous Job -->
+                        <!-- Then replace the "..." below it with a description of the role and what you did -->
+
+                        <div class="panel-group" id="accordion1">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title cen">
+                                    <a data-toggle="collapse" data-parent="#accordion1" href="#A1">
+                                      Job
+                                    </a>
+                                   </h4>
+                                </div>
+                            
+                                <div id="A1" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                   <p>xxx</p>
+                                  </div>
+                                </div>
+                            </div>
+                  
+                           <div class="panel panel-info">      
+                                  <div class="panel-heading">
+                                  <h4 class="panel-title cen">
+                                    <a data-toggle="collapse" data-parent="#accordion1" href="#A2">
+                                      Job
+                                    </a>
+                                  </h4>
+                                  </div>
+                             
+                                <div id="A2" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                    <p>xxx</p>
+                                  </div>
+                                </div>  
+                            </div>
+                   
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title cen">
+                                    <a data-toggle="collapse" data-parent="#accordion1" href="#A3">
+                                      Job
+                                    </a>
+                                  </h4>
+                                </div>
+                            
+                                <div id="A3" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                    <p>xxx</p>
+                                  </div>
+                              </div>   
+                          </div>
+                         </div>
+
+                      </div>
+
+                      <div class="col-md-6">
+                        
+                        <h3 class="cen b">Academic Experience</h3>
+                        <!-- STEP 10 -->
+                        <!-- In the section below, replace the words Course #, with the name of a course you have done (include NCI, Leaving cert and any other courses) -->
+                        <!-- Then replace the "..." below it with a description of the course and the topics you covered -->
+
+                        <div class="panel-group" id="accordion2">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title cen">
+                                    <a data-toggle="collapse" data-parent="#accordion2" href="#B1">
+                                      Course
+                                    </a>
+                                   </h4>
+                                </div>
+                            
+                                <div id="B1" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                    <p>xxx</p>
+                                  </div>
+                                </div>
+                            </div>
+                  
+                           <div class="panel panel-info">      
+                                  <div class="panel-heading">
+                                  <h4 class="panel-title cen">
+                                    <a data-toggle="collapse" data-parent="#accordion2" href="#B2">
+                                      Course
+                                    </a>
+                                  </h4>
+                                  </div>
+                             
+                                <div id="B2" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                    <p>xxx</p>
+                                  </div>
+                                </div>  
+                            </div>
+                   
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title cen">
+                                    <a data-toggle="collapse" data-parent="#accordion2" href="#B3">
+                                      Course
+                                    </a>
+                                  </h4>
+                                </div>
+                            
+                                <div id="B3" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                    <p>xxx</p>
+                                  </div>
+                              </div>   
+                          </div>
+                         </div>
+                       </div>
+                        
+                    </div> <!--  Row end -->
+
+                </div>
+            </section>
+
+            <!--  Results Table -->
+            <section id="GR" class="u70 d70">
+                <div class="container">
+                  <!-- STEP 11 -->
+                  <!-- In the section below, rtype the Course year(s) and the college attended -->
+                  <!-- Then replace the "..." below it with a description of the role and what you did -->
+                    <div class="panel panel-info resultsPanel">
+                        <!-- Default panel contents -->
+                        <div class="panel-heading"><h3 class="cen"> Course Year <small>College</small></h3></div>
+                        <!-- Table -->
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <!-- STEP 10 -->
+                                <!-- Calculate your ovrall grade as a percentage and replace below -->
+                                <h3 class="cen">100%</h3>
+                                <!-- <img src="" alt="Image of grade" class="img-circle center-block"> -->
+                                <h3 class="cen">Overall grade</h3>
+                            </div>
+                            <div class="col-lg-10">
+                                <table class="table">
+                                    <tr>
+                                        <th>Module</th>
+                                        <th>Result</th>
+                                    </tr>
+                                    <!-- STEP 9 -->
+                                    <!-- Copy the content below from the <tr> <td></td> </tr> one for each module you have completed -->
+                                    <!-- Insert the module name between the first <td> tags and the result between the secoond <td> tags -->
+                                    <tr>
+                                        <td>Java</td>
+                                        <td>100%</td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        
+        <!-- Footer Start -->
+        <div class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                    <p class="navbar-text pull-right"></p>
+                    <a href="../index.html"><i class="fa fa-chevron-circle-left fa-3x cen b"></i></a>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Calls to JS files -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- <script src="js/scroll.js"></script> -->
+        <script type="text/javascript" src="js/Chart.js"></script>
+        <script type="text/javascript" src="js/David_Brady_Chart.js"></script>
+    </body>
+        </html>
