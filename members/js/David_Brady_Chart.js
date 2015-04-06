@@ -10,42 +10,42 @@
 //Example: Replace "A" with Java and assign the number 2 to the first position in the array to indicate an intermediate skill level
 
 var Chart1Data = {
-        labels : ["A", "B", "C", "D", "E"],
+        labels : ["Java", "HTML5", "Scala", "Ruby", "C#"],
         datasets : [
             {
                 fillColor : "#00CCFF",
                 strokeColor : "#FFF",
                 highlightFill : "#FFFF00",
                 highlightStroke : "#00CCFF",
-                data : [1, 2, 3 , 2, 1]
+                data : [2, 2, 1 , 1, 2]
             }
         ]
 
     }
 
 var Chart2Data = {
-        labels : ["H", "I", "J", "K", "L"],
+        labels : [".NET","JS", "CSS", "JQuery", "Bootstrap",],
         datasets : [
             {
                 fillColor : "#00CCFF",
                 strokeColor : "#FFF",
                 highlightFill : "#FFFF00",
                 highlightStroke : "#00CCFF",
-                data : [1, 2, 3 , 2, 1]
+                data : [2, 2, 2 , 2, 3]
             }
         ]
 
     }
 
 var Chart3Data = {
-        labels : ["M", "N", "O", "P", "Q"],
+        labels : ["AGILE", "XML", "JSON", "Bash", "SQL"],
         datasets : [
             {
                 fillColor : "#00CCFF",
                 strokeColor : "#FFF",
                 highlightFill : "#FFFF00",
                 highlightStroke : "#00CCFF",
-                data : [1, 2, 3 , 2, 1]
+                data : [2, 2, 2 , 1, 2]
             }
         ]
 
